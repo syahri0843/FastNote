@@ -20,19 +20,20 @@ Sebuah aplikasi catatan sederhana menggunakan **Golang**.
 
 go run notes.go
 
+```md
+## 📌 Penjelasan Kode  
 
+| Bagian Kode       | Deskripsi |
+|-------------------|-----------|
+| `package main`    | Mendefinisikan package utama dalam program Go |
+| `import "fmt"`    | Mengimpor package `fmt` untuk mencetak output ke terminal |
+| `func main()`     | Fungsi utama yang dieksekusi saat program dijalankan |
+| `fmt.Println()`   | Mencetak teks ke layar |
 
-🏗️ Struktur Kode
+---
 
-// notes.go
-
-package main
-
-import "fmt"
-
-func main() {
-    fmt.Println("📝 Aplikasi Catatan Sederhana")
-}
+💡 **Catatan:**  
+Kode ini hanya mencetak teks sederhana, namun bisa dikembangkan lebih lanjut dengan fitur tambahan seperti menyimpan catatan, membaca, dan menghapus catatan.
 
 🤝 Kontribusi
 
